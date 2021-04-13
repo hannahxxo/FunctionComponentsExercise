@@ -87,3 +87,31 @@ ReactDOM.render(
     <GrinchVmail />,
     document.getElementById('root')
 );
+
+// 7a
+const GrinchAll = () => {
+    return (
+        <div>
+            <GrinchXmas />,
+            <GrinchMusic />,
+            <GrinchIdiot />,
+            <GrinchSchedule />,
+            <GrinchPoster />,
+            <GrinchVmail />,
+        </div>
+    );
+}
+
+// 7b
+ReactDOM.render(
+    <GrinchAll />,
+    document.getElementById('root')
+);
+
+// 8a
+const DiceRoll = () => {
+    // 8b
+    const die1 = (Math.random*6)Math.floor;
+    // 8c
+    const die2 = (Math.random*6)Math.floor;
+}
